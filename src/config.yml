@@ -1,0 +1,9 @@
+#set this to true to use SQL
+usesql: false
+
+database:
+  host: localhost
+  port: 3306
+  database: root
+  user: root
+  pass: 12345

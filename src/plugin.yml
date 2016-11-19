@@ -1,0 +1,29 @@
+name: ColorEmAll
+version: 1.2
+author: [Emanuel]
+main: me.color.main.main
+
+commands:
+  colorthemall:
+    description: basic command.
+    aliases: [cta]
+
+permissions:
+  cta.set:
+    description: used to set a users rank
+  cta.show:
+    description: used to show a users rank
+  cta.create:
+    description: used to create a rank
+  cta.remove:
+    description: used to delete a rank
+  cta.prefix:
+    description: used to set the prefix of a rank
+  cta.suffix:
+    description: used to set the suffix of a rank
+  cta.list:
+    description: used to list all the ranks
+  cta.info:
+    description: used to show some informations about the plugin
+  cta.reload:
+    description: used to reload the plugin
